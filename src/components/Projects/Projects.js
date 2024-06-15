@@ -7,6 +7,11 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import drone from "../../Assets/Projects/drone.jpg";
+import gallery from "../../Assets/Projects/gallery.jpg";
+import camera from "../../Assets/Projects/camera.jpg";
+import memorygame from "../../Assets/Projects/memorygame.jpeg";
+import treasures from "../../Assets/Projects/treasures.jpeg";
 
 function Projects() {
     return (
@@ -24,9 +29,9 @@ function Projects() {
                 >
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={chatify}
+                            imgPath={drone}
                             isBlog={false}
-                            title="Drone line following"
+                            title="Drone line tracking"
                             description="Line following by a drone with OpenCV in Python for real-time image processing from the camera."
                             ghLink="https://github.com/thomashamamji/linedetection"
                             demoLink="https://chatify-49.web.app/"
@@ -35,7 +40,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={bitsOfCode}
+                            imgPath={camera}
                             isBlog={false}
                             title="TELECAM"
                             description="Development of a WiFi-based media transfer remote control TELECAM. A desktop application allows photographers to transfer photos from their camera to their computer. The application is built using Electron.js as the desktop app framework with React.js and the libgphoto2 C library to connect camera to any Raspberry PI."
@@ -46,7 +51,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={editor}
+                            imgPath={gallery}
                             isBlog={false}
                             title="Photo gallery"
                             description="Photo gallery built with React.js, Material-UI, Express.js, and MySQL. The application allows users to upload and view photos. Photo fetching is based on the Pexels API."
@@ -56,7 +61,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={leaf}
+                            imgPath={memorygame}
                             isBlog={false}
                             title="Memory Game"
                             description="Pokemon memory game developed in Javascript with HTML and CSS. The game is built with a timer and a score counter."
@@ -67,7 +72,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={suicide}
+                            imgPath={treasures}
                             isBlog={false}
                             title="Treasures hunt game"
                             description="Treasures hunt game developed in C. Users can either specify these locations themselves or have them randomly generated. Good luck finding the treasures."
