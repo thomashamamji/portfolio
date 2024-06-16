@@ -29,7 +29,7 @@ function Projects() {
                             title="Drone line tracking"
                             description="Line following by a drone with OpenCV in Python for real-time image processing from the camera."
                             ghLink="https://github.com/thomashamamji/linedetection"
-                            demoLink="https://chatify-49.web.app/"
+                            demoLink="/drone.mp4"
                         />
                     </Col>
 
